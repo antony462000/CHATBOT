@@ -26,7 +26,7 @@ const styles = {
     bottom:'5%',
     width:'100px',
     height:'100px',
-    color:'black',
+    color:'white',
     cursor:'pointer'
 
   }
