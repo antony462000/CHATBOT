@@ -12,7 +12,16 @@ function App() {
     setMessage(!message)
   }
   return (<div>
-    <img src= {webImage} alt='web' />
+   <img 
+  src={webImage} 
+  alt="web" 
+  style={{ 
+    width: '100%', 
+    height: '100%', 
+    objectFit: 'cover' 
+  }} 
+/>
+
     <BsChatRightDots style={styles.design} onClick={toggleChat}/>
     {message?null:<Chatwindow toggleChat={toggleChat} />}
     </div>

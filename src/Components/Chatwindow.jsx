@@ -27,7 +27,7 @@ function Chatwindow({toggleChat}) {
 const styles = {
         coverStyle:{
             position:'fixed',
-            right:'0',
+            right:'3px',
             bottom:'0',
             borderRadius: '20px 10px 0 0', 
             height:'60%',
