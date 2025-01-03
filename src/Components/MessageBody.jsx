@@ -30,7 +30,7 @@ function MessageBody({messages,responseMessage}) {
 
 const styles = {
   design:{
-    height:'330px',
+    height:'325px',
     paddingTop: '10px',
     display:'flex',
     flexDirection:'column',

@@ -65,23 +65,28 @@ const styles = {
   design:{
     display:'flex',
     justifyContent:'space-between',
-    backgroundColor:'white',
+    background:'transparent',
     paddingBottom: 30,
+    paddingLeft:10,
     marginBottom: 20,
     
   },
   textBox:{
     width:'100%',
-    paddingBottom: 5,
+    paddingBottom: 3,
+    border:'1px solid',
     borderColor:'#f1f7f7',
-    backgroundColor:'#f6fdfd',
-    borderWidth:'1px',
-    borderRadius: '11px',
+    backgroundColor:'#d9e7fa',
+    paddingLeft:10,
+    marginTop: 2,
+    marginBottom: 1,
+    borderRadius: '8px',
   },
   Button:{
     height:25,
     width:25,
-    padding:'3px'
+    padding:'3px',
+    cursor:'pointer'
   }
 }
 export default MessageInput
