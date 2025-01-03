@@ -16,7 +16,9 @@ function MessageInput({messages,setMessages}) {
       setMessage('')
       await responseMessagefunction()
     }
-  }
+  };
+
+  
 
   const storeMessage=(message,userType)=> setMessages((prevMessages) => [...prevMessages, {text:message, isUser:userType}]);
   const responseMessagefunction=()=>{
@@ -75,8 +77,8 @@ const styles = {
     width:'100%',
     paddingBottom: 3,
     border:'1px solid',
-    borderColor:'#f1f7f7',
-    backgroundColor:'#d9e7fa',
+    borderColor:'#9a9696',
+    backgroundColor:'white',
     paddingLeft:10,
     marginTop: 2,
     marginBottom: 1,
@@ -85,7 +87,10 @@ const styles = {
   Button:{
     height:25,
     width:25,
+    color:'#de2caa',
     padding:'3px',
+    marginLeft:6,
+    marginRight:6,
     cursor:'pointer'
   }
 }
